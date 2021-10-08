@@ -1,0 +1,26 @@
+Componentes utilizados en cada página
+
+index.html
+ • NavBar
+ • Button
+ • Dropdown
+ • Modal
+ • Carousel
+
+showMore.html
+ • NavBar
+ • Acordion
+
+addCup.html
+ • NavBar
+ • Button
+ • Alert
+
+about.html
+ • Nabvar
+
+manageCups.html
+ • Nabvar
+ • Modal
+ • Dropdown
+
