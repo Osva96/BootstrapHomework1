@@ -1,0 +1,50 @@
+/* #footerPred {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+.containerPersonalized {
+    min-height: calc(100vh - 118px);
+}
+
+.containerAdminAbout {
+    min-height: calc(100vh - 61px);
+}
+
+.containerAdminAddCup {
+    min-height: calc(100vh - 119px);
+}
+
+.centerFooter {
+    /* text-align: center; */
+    background-color: #ebebeb;
+}
+
+.centerForm {
+    /* Original */
+    /* position: absolute;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    /* Extra */
+    /* min-width: 100vh; */
+    min-width: 80%;
+}
+
+/* .navbarText {
+    color: black;
+} */
+
+.navbarIcons {
+    color: #464fcf;
+}
