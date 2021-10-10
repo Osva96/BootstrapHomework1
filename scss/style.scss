@@ -1,3 +1,20 @@
+// Estilos existentes en Bootstrap
+$primary: #1c6097;
+$secondary: #6b492d;
+$dropdown-link-color: #000000;
+$enable-shadows: false;
+$enable-gradients: true;
+$btn-border-radius: 1rem;
+$navbar-light-color: #1100ff;
+$accordion-button-bg: #0000000f;
+
+@import "../libs/bootstrap/scss/bootstrap.scss";
+
+// Estilo personalizado propio en elementos de Bootstrap
+.btn-primary {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.27);
+}
+
 /* #footerPred {
     position: fixed;
     bottom: 0;
@@ -46,5 +63,5 @@
 } */
 
 .navbarIcons {
-    color: #464fcf;
+    color: #b65353;
 }
